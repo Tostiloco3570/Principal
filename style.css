@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-family: monotype corsiva;
     vertical-align: baseline;
 }
 
@@ -40,8 +41,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 30px;
 }
 
 .fondo1{
-    background: rgb(30, 58, 70)
+    background: rgb(25, 42, 49)
 }
