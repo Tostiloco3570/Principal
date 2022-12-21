@@ -34,3 +34,14 @@ body{
     display: flex;
 }
 
+.intro{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo1{
+    background: rgb(30, 58, 70)
+}
