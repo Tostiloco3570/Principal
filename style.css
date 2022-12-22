@@ -25,12 +25,12 @@ body{
 
 .logo {
     display: flex;
-    height: 150px;
+    height: 120px;
     margin-left: 20%;
 }
 
 .otroLogo{
-    height: 180px;
+    height: 120px;
     display: flex;
     margin-right: 20%;
 }
