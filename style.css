@@ -1,5 +1,5 @@
 @font-face{
-    font-family: monotype corsiva;
+    font-family: monotype;
     src: url(Letras/Monotype\ Corsiva.ttf);
 }
 
@@ -8,7 +8,7 @@
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: monotype corsiva;
+    font-family: monotype;
     vertical-align: baseline;
 }
 
