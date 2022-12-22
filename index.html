@@ -11,14 +11,56 @@
 <body class="grid">
     <div class="head">
         <nav class="logo">
-            <img src="./fotos/Logo.jpeg" style="border-radius: 100px;">
+            <img src="./fotos/Logo.jpeg" style="border-radius: 75px;">
         </nav>
         <nav class="otroLogo">
             <img src="./fotos/Logo2.png">
         </nav>
     </div>
     <div class="intro fondo1">
-        <p>Sean bienvenidos a CodesEditor.js, aquí encontrarás todo lo que necesitas, desde una página web simple hasta un proyecto para tu empresa</p>
+        <p>Sean bienvenidos a CodesEditor.js, aquí encontrarás todo lo que necesitas, desde una página web simple hasta un proyecto para tu empresa</p><br>
+        <p>Esta página tiene como fin resolver los problemas de los demás, ya que aquí contamos con un buen equipo de trabajo, para que usted pueda 
+            disfrutar de un programa en el cual sea optimizado y tenga la atención de todo el público para que usted tenga éxito y se sienta seguro con nuestro servicio</p>
+    </div>
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <img src="./fotos/programar.jpg">
+                <label class="slide-text"><p style="font-size: 32; font-family: minion pro;">Pide cualquier programa</p>
+                    <br>Tu trabajo estará en menos de una semana y al mejor precio</label>
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <label class="slide-text"><p style="font-size: 32; font-family: minion pro;">Te atendemos las 24 horas del día</p>
+                    <br>Sin importar la hora trataremos tu problema lo más rápido posible</label>
+                <img src="./fotos/atender.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./fotos/a.jpg">
+                <label class="slide-text"><p style="font-size: 32; font-family: minion pro;">Próximamente clases en línea</p>
+                    <br>No dejes que el futuro avance más que tú<br>(Presione aquí para más información)</label>
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>
