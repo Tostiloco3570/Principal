@@ -7,6 +7,11 @@
     vertical-align: baseline;
 }
 
+@font-face{
+    font-family: monotype corsiva;
+    src: url(Letras/Monotype\ Corsiva.ttf);
+}
+
 body{
     background: black;
     text-align: center;
