@@ -3,6 +3,17 @@
     src: url(Letras/Monotype\ Corsiva.ttf);
 }
 
+@font-face{
+    font-family: chapa;
+    src: url(Letras/ChaparralPro-Regular.ttf);
+}
+
+@font-face{
+    font-family: mini;
+    src: url(Letras/Minion\ Pro\ Regular.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -182,7 +193,7 @@ body{
 .slide-text{
     color: #fff;
     font-size: 28px;
-    font-family: chaparral pro;
+    font-family: chapa;
     position: absolute;
     top: 60%;
     width: 80%;
