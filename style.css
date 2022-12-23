@@ -30,6 +30,8 @@ body{
 }
 
 .head{
+    padding-bottom: 2%;
+    padding-top: 2%;
     display: flex;
     width: 80%;
     max-height: 150px;
