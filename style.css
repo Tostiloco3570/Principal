@@ -24,7 +24,9 @@
 }
 
 body{
-    background: black;
+    background: url(fotos/fondo2.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     font-family: sans-serif;
 }
@@ -62,8 +64,7 @@ body{
     background: url(fotos/fondo1.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
 }
 
 .btn {
@@ -82,11 +83,6 @@ body{
     justify-content: space-between;
 }
 
-.btn:hover {
-    border: 2px solid #340052;
-    
-}
-
 .b1{
     height: 32.5%;
     margin-right: 2.5%;
@@ -95,6 +91,11 @@ body{
 .b2{
     height: 32.5%;
     margin-left: 2.5%;
+}
+
+.btn:hover {
+    border: 2px solid #340052;
+    
 }
 
 .slide {
@@ -118,14 +119,13 @@ body{
 .slide-item {
     position: absolute;
     opacity: 0;
-    -webkit-transition: opacity 0.6s ease-out;
-    transition: opacity 0.6s ease-out;
+    -webkit-transition: opacity 0s ease-out;
+    transition: opacity 0s ease-out;
 }
 
 .slide-item img {
     align-items: center;
-    height: auto;
-    max-width: 80%;
+    width: 60%;
 }
 
 .slide-control {
