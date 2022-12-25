@@ -68,13 +68,15 @@ body{
 }
 
 .btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
+    width: 160px;
+    height: 80px;
+    margin: 10% auto;
     color: #fff;
     text-decoration: none;
     background: #0d0052;
+    justify-content: center;
     border-radius: 20px;
+    position: relative;
 }
 
 .b{
@@ -94,9 +96,36 @@ body{
     margin-left: 2.5%;
 }
 
-.btn:hover {
-    border: 2px solid #340052;
-    
+.ani::before, .ani::after{
+    content: '';
+    left: -10px;
+    top: -10px;
+    position: absolute;
+    border-radius: 20px;
+    background: linear-gradient(120deg, #3acfd5, #3a4ed5, blue);
+    background-size: 300%;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    z-index: -1;
+    animation: BGgradient 10s ease infinite;
+}
+
+@keyframes BGgradient {
+    0%{
+        background-position: 0% 200%;
+    }
+    50%{
+        background-position: 200% 0%;
+    }
+    100%{
+        background-position: 0% 330%;
+    }
+}
+
+.ani::after{
+    filter: brightness(1.4);
+    filter: drop-shadow(16px 16px 20px rgb(7, 118, 245));
+    filter: blur(15px);
 }
 
 .slide {
