@@ -80,19 +80,21 @@ body{
 }
 
 .b{
+    width: 100%;
     display: flex;
     margin-left: 15%;
     margin-right: 15%;
     justify-content: space-between;
+    height: 40%;
 }
 
 .b1{
-    height: 32.5%;
+    width: 32.5%;
     margin-right: 2.5%;
 }
 
 .b2{
-    height: 35%;
+    width: 32.5%;
     margin-left: 2.5%;
 }
 
