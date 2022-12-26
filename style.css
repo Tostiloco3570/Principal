@@ -88,11 +88,11 @@ body{
 }
 
 .b1{
-    width: 32.5%;
+    height: 32.5%;
 }
 
 .b2{
-    width: 32.5%;
+    height: 32.5%;
 }
 
 .ani::before, .ani::after{
