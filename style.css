@@ -68,9 +68,9 @@ body{
 }
 
 .btn {
-    width: 200px;
-    height: 100px;
-    margin: 10% auto;
+    padding: 10px 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: #fff;
     text-decoration: none;
     background: #0d0052;
@@ -89,10 +89,12 @@ body{
 
 .b1{
     height: 32.5%;
+    position: relative;
 }
 
 .b2{
     height: 32.5%;
+    position: relative;
 }
 
 .ani::before, .ani::after{
