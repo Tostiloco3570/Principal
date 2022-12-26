@@ -80,6 +80,7 @@ body{
 }
 
 .b{
+    width: 100%;
     display: flex;
     margin-left: 15%;
     margin-right: 15%;
@@ -89,12 +90,14 @@ body{
 }
 
 .b1{
-    height: 30%;
+    height: 32.5%;
+    width: 50%;
     position: relative;
 }
 
 .b2{
-    height: 30%;
+    height: 32.5%;
+    width: 50%;
     position: relative;
 }
 
